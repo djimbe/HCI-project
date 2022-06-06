@@ -1,0 +1,105 @@
+@font-face {
+    font-family: playfair;
+    src: url('PlayfairDisplaySC-Regular.ttf');
+}
+
+@font-face {
+    font-family: boldplayfair;
+    src: url('PlayfairDisplaySC-Bold.ttf');
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: boldplayfair; 
+    background-color: #fff2de;
+}
+
+#header {
+    /* width: 100%; */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* display: block;
+    position: absolute; */
+    z-index: 1;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+/* 
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+
+} */
+
+
+li{
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+  }
+
+h1{
+    font-size: 80;
+    font-family: Playfair, Consolas, "Courier New", monospace;
+    color: #E88F8F;
+    text-decoration: underline;
+}
+
+.information{
+    display: flex;
+}
+  
+.image{
+    height: 140px;
+    padding: 16px;
+    background: plum;
+    border: 4px solid indigo;
+    display: flex;
+}
+
+.information-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#test{
+    text-align: right;
+}
+
+*{
+    /* border : solid 1px red; */
+    }
+ .footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #FFF2DE;
+    font-weight: 700;
+    font-size: 42;
+    }
+    
+  .link{
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+    }
+
+.title{
+    text-align: center;
+    font-size: 40px;
+}
